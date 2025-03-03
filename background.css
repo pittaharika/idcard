@@ -1,0 +1,137 @@
+/* Centering the page content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+/* ID Card Container */
+.id-card {
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Header Styles */
+/* Ensure Header is Centered Properly */
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px; /* Reduce padding */
+    box-sizing: border-box;
+}
+
+/* Adjust Table Layout */
+.header table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Reduce spacing below "SASI" */
+.sasi-text {
+    font-size: 30px; /* Adjust size as needed */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0px; /* Remove extra space */
+    padding-bottom: 0px;
+}
+
+/* Reduce Gap Between SASI and Institute */
+.sasi-title {
+    width: 40%; /* Adjust width to pull it closer */
+    text-align: right; /* Align to right to bring it closer */
+    font-size: 100%;
+    padding-right: 10px; /* Reduce right spacing */
+    margin-bottom: 4px; /* Remove extra space below */
+    padding-bottom: 4px;
+    
+}
+
+.institute {
+    width: 60%;
+    text-align: left; /* Align text closer to SASI */
+    padding-left: 5px; /* Reduce left spacing */
+    line-height: 1.1; /* Reduce line spacing */
+    color: rgb(21, 21, 95);
+}
+
+/* Adjust Font Size */
+.title {
+    font-size: 40px; /* Adjust if needed */
+    color: rgb(21, 21, 81);
+}
+
+/* Reduce spacing above "Autonomous" */
+.subtitle {
+    font-size: 16px;
+    display: block;
+    margin-top: -8px; /* Move "Autonomous" closer */
+    padding-top: 0px;
+    color: deepskyblue;
+}
+
+/* Reduce the space above "Tadepalligudem" */
+.location {
+    font-size: 12px;
+    margin-top: 2px; /* Move it closer */
+    padding-top: 0px;
+    color: rgb(202, 54, 67);
+}
+.logo-text {
+    margin-top: -8px; /* Move it closer */
+    padding-top: 0px;
+}
+
+
+/* Logo & Profile Picture */
+img {
+    max-width: 100%;
+    font-size: 12px;
+    margin-top: -2px; /* Move it closer */
+    padding-top: 0px;
+}
+
+/*.id-card img.logo {
+    width: 1px;
+    height: 6%;
+}*/
+
+.id-card img.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Barcode */
+.id-card img.barcode {
+    width: 130px;
+    height: 50px;
+}
+
+/* Principal Signature */
+.id-card img.signature {
+    height: 40px;
+}
+
+/* Text Styling */
+h4 {
+    color: darkblue;
+}
+
+h3 {
+    color: rgb(1, 24, 17);
+}
+
+h3.id {
+    color: brown;
+}
+
+h4.name {
+    color: crimson;
+}
+
